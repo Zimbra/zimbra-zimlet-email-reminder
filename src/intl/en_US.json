@@ -1,0 +1,11 @@
+{
+	"zimbra-zimlet-email-reminder": {
+		"menuItem": "Create reminder",
+		"remindMeText": "Remind me about:",
+		"notes": "Notes:",
+		"dateTime": "Date/time for the reminder:",
+		"completeReload": "Reminder created, please reload your calendar",
+		"complete": "Reminder created"
+		}
+}
+
