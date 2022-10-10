@@ -88,7 +88,7 @@ function createAppointment(args, e) {
    let request = new XMLHttpRequest();
    let formData = new FormData();
    formData.append("file", file);
-   request.open("POST", `/home/${context.getAccount().name}/Calendar?fmt=ics&charset=UTF-8`);
+   request.open("POST", context.zimbraOrigin + `/home/${context.getAccount().name}/Calendar?fmt=ics&charset=UTF-8`);
    request.onreadystatechange = function (e) {
       if ((request.readyState === 4) && (request.status === 200)) {
          const { dispatch } = context.store;
