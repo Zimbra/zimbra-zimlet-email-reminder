@@ -6,6 +6,10 @@
 		"dateTime": "Date/time for the reminder:",
 		"completeReload": "Reminder created, please reload your calendar",
 		"complete": "Reminder created"
-		}
+		},
+	"zimlet": {
+		"description": "Create a calendar reminder based on an email message",
+		"label": "Email Reminder"
+	}
 }
 

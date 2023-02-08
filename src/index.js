@@ -7,6 +7,7 @@ import createMore from './components/more';
 
 //Create function by Zimbra convention
 export default function Zimlet(context) {
+
 	//Get the 'plugins' object from context and define it in the current scope
 	const { plugins } = context;
 	const exports = {};
